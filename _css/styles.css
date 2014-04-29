@@ -1,0 +1,72 @@
+body { 
+    background: #000;
+    padding-top: 60px; 
+}
+.banner {
+    width: auto;
+}
+.banner p {
+    color: #fff;
+}
+.logo1 {
+    height: 180px;
+}
+.about-img {
+    margin: 0 auto; padding: 2px;
+}
+article {
+    background: #fff;
+}
+h1 {
+    color: #DC0000;
+}
+.gpn {
+    color: #DBC847;
+}
+h3 {
+    color: #DBC847;
+}
+h4 {
+    color: #963C27;
+    padding-top: .75em;
+}
+aside {
+    background: url(../_media/SilverFishScales.png);
+}
+aside h3 {
+    color: #000;
+    text-align: center;
+    text-shadow: 3px 3px #DBC847;
+}
+ul.socialicons li a.twitter,
+ul.socialicons li a.facebook,
+ul.socialicons li a.youtube,
+ul.socialicons li a.soundcloud,
+ul.socialicons li a.email {
+    background: url(../_media/sm_sprites2.png) no-repeat 0 0;
+    display: block;
+    height: 33px;
+    margin:auto;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 32px;
+}
+ul.socialicons li a.twitter { background-position: 0 -658px; }
+ul.socialicons li a.twitter:hover { background-position: -38px -658px; }
+ul.socialicons li a.facebook { background-position: 0 -73px; }
+ul.socialicons li a.facebook:hover { background-position: -38px -73px; }
+ul.socialicons li a.youtube { background-position: 0 -219px; }
+ul.socialicons li a.youtube:hover { background-position: -38px -219px; }
+ul.socialicons li a.soundcloud { background-position: 0 -1017px; }
+ul.socialicons li a.soundcloud:hover { background-position: -38px -1017px; }
+ul.socialicons li a.email { background-position: 0 -1623px; }
+ul.socialicons li a.email:hover { background-position: -38px -1623px; }
+ul.socialicons li a.itunes { background-position: 0 -1837px; }
+ul.socialicons li a.itunes:hover { background-position: -38px -1837px; }
+
+footer p {
+    color: #fff;
+}
+footer a {
+    color: grey;
+}
