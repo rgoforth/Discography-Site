@@ -20,9 +20,6 @@ article {
 h1 {
     color: #DC0000;
 }
-.gpn {
-    color: #DBC847;
-}
 h3 {
     color: #DBC847;
 }
@@ -37,6 +34,9 @@ aside h3 {
     color: #000;
     text-align: center;
     text-shadow: 3px 3px #DBC847;
+}
+ul li {
+    list-style: none;
 }
 ul.socialicons li a.twitter,
 ul.socialicons li a.facebook,
@@ -64,9 +64,51 @@ ul.socialicons li a.email:hover { background-position: -38px -1623px; }
 ul.socialicons li a.itunes { background-position: 0 -1837px; }
 ul.socialicons li a.itunes:hover { background-position: -38px -1837px; }
 
+p a, ul.tour a {
+    color: #F7601D;
+    text-decoration: underline;
+}
+a:active {
+    color: #000ADD;
+}
+a:hover {
+    color: #000ADD;
+}
+a:visited {
+    color: #857BB8;
+}
 footer p {
     color: #fff;
 }
-footer a {
-    color: grey;
+footer a:hover {
+    color: #999;
 }
+footer a:hover {
+    color: #333;
+}
+footer a:visited {
+    color: #666;
+}
+.ib {
+    border: .1em dotted #000;
+}
+form {
+    background: #000;
+    padding-bottom: .5em
+}
+.form-group {
+    padding-left: .75em;
+}
+form label {
+    color: #DCB847;
+    line-height: 2;
+    width: 320px
+}
+form a {
+    color: #DC0000;
+}
+#namefield, #namefield1, #namefield2, #city, #state { width: 50%;}
+#emailfield, #emailfield1, #address, #urlfield {width: 60%;}
+#zip, #length {width: 30%;}
+#date {width: 50%;}
+#commentfield {width: 90%;}
