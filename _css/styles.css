@@ -1,3 +1,36 @@
+/*
+
+Developer: Your Name
+
+Table of Contents
+
+HEADER - Site name, logo, main menu
+
+SIDEBAR - Sidebar
+
+MAINCONTENT - Page Specific Styling
+
+FOOTER – Copyright
+
+Color Palette
+
+#FFF5EE - Seashell
+
+#FF8C00 - Dark Orange
+
+#8A360F - Burnt Sienna
+
+#C6E2FF - Sky Blue
+
+#1C86EE - Bright Blue
+
+#0000CD - Royal Blue
+
+*/
+
+
+
+/* HEADER & GLOBAL STYLING */
 body { 
     background: #000;
     padding-top: 60px; 
@@ -17,16 +50,48 @@ body {
 article {
     background: #fff;
 }
+a:active {
+    color: #000ADD;
+}
+a:hover {
+    color: #000ADD;
+}
+a:visited {
+    color: #857BB8;
+}
+
 h1 {
     color: #DC0000;
+    font: 2.5em Impact, Helevetica, sans-serif;
+    letter-spacing: 2px;
 }
 h3 {
     color: #DBC847;
+    font: 2em Impact, Helevetica, sans-serif;
+    letter-spacing: 3px
 }
 h4 {
     color: #963C27;
+    font: 1.4em Impact, Helevetica, sans-serif;
+    letter-spacing: 2px;
     padding-top: .75em;
 }
+h5 {
+    font: 1.2em Impact, Helevetica, sans-serif;
+    letter-spacing: 1px;
+}
+iframe {
+    border: none;
+    height: 166px;
+    width: 100%;
+}
+iframe.media {
+    border: none;
+    height: 450px;
+    width: 100%;
+}
+
+/* SIDEBAR */
 aside {
     background: url(../_media/SilverFishScales.png);
 }
@@ -34,9 +99,6 @@ aside h3 {
     color: #000;
     text-align: center;
     text-shadow: 3px 3px #DBC847;
-}
-ul li {
-    list-style: none;
 }
 ul.socialicons li a.twitter,
 ul.socialicons li a.facebook,
@@ -63,35 +125,34 @@ ul.socialicons li a.email { background-position: 0 -1623px; }
 ul.socialicons li a.email:hover { background-position: -38px -1623px; }
 ul.socialicons li a.itunes { background-position: 0 -1837px; }
 ul.socialicons li a.itunes:hover { background-position: -38px -1837px; }
+div.panel-heading {
+    background: #000;
+    color: #000;;
+    text-align: center;
+}
 
+
+
+/* DISCOGRAPHY PAGE */
+.ib {
+    border: .1em dotted #000;
+}
+
+
+
+/* TOUR PAGE */
+ul.tour li {
+    list-style:none;
+    padding-bottom: .75em;
+}
 p a, ul.tour a {
     color: #F7601D;
     text-decoration: underline;
 }
-a:active {
-    color: #000ADD;
-}
-a:hover {
-    color: #000ADD;
-}
-a:visited {
-    color: #857BB8;
-}
-footer p {
-    color: #fff;
-}
-footer a:hover {
-    color: #999;
-}
-footer a:hover {
-    color: #333;
-}
-footer a:visited {
-    color: #666;
-}
-.ib {
-    border: .1em dotted #000;
-}
+
+
+
+/* FORM STYLES */
 form {
     background: #000;
     padding-bottom: .5em
@@ -112,3 +173,19 @@ form a {
 #zip, #length {width: 30%;}
 #date {width: 50%;}
 #commentfield {width: 90%;}
+
+
+
+/* FOOTER AREA */
+footer p {
+    color: #fff;
+}
+footer a:hover {
+    color: #999;
+}
+footer a:hover {
+    color: #333;
+}
+footer a:visited {
+    color: #666;
+}

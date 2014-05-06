@@ -14,6 +14,16 @@
 <!--[if lt IE 9]>
 <script src="_scripts/respond.min.js"></script>
 <![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50680731-1', 'francistuttle.com');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
     <div class="container">
@@ -40,9 +50,9 @@
     </nav>
         
         <div class="banner">
-            <div class="logo col-lg-6 col-md-6 col-sm-6"><a href="index.html"><img src="_media/logo.png" class="img-responsive"></a>
+            <div class="logo col-lg-6 col-md-6 col-sm-6"><a href="index.html"><img src="_media/logo.png" class="img-responsive" alt="Picture of logo"></a>
             <p>Sir Michael Rocks and Chuck Inglish </p></div>
-            <div class="logo1 col-lg-6 col-md-6 col-sm-6"><img src="_media/goldpager.png" class="img-responsive"></div>
+            <div class="logo1 col-lg-6 col-md-6 col-sm-6"><img src="_media/goldpager.png" class="img-responsive" alt="Picture for page"></div>
         </div>
     </header>
     
@@ -54,15 +64,15 @@
             <p><small>&#42; denotes a required field</small></p>
             <form role="form">
             <div class="form-group">
-                <label for="firstname">&#42; First Name</label>
+                <label for="namefield1">&#42; First Name</label>
                 <input type="text" class="form-control" id="namefield1" placeholder="Enter first name." required>
             </div>
             <div class="form-group">
-                <label for="lastname">&#42; Last Name</label>
+                <label for="namefield2">&#42; Last Name</label>
                 <input type="text" class="form-control" id="namefield2" placeholder="Enter last name." required>
             </div>
             <div class="form-group">
-                <label for="email">&#42; E&#45;Mail Address</label>
+                <label for="emailfield">&#42; E&#45;Mail Address</label>
                 <input type="email" class="form-control" id="emailfield" placeholder="Enter e&#45;mail address." required>
             </div>
             <div class="form-group">
@@ -82,12 +92,12 @@
                 <input type="number" class="form-control" id="zip" placeholder="Enter your zip code.">
             </div>
             <div class="form-group">
-                <label for="birthday"> Birthday</label>
-                <input type="date" class="form-control" id="date" placeholder="birthdate">
+                <label for="date"> Birthday</label>
+                <input type="date" class="form-control" id="date">
             </div>
             
             <div class="form-group">
-                <label for="query">How long have you listened to The Cool Kids?</label>
+                <label for="length">How long have you listened to The Cool Kids?</label>
                 <select class="form-control" id="length">
                   <option>&lt; 1</option>
                   <option>1</option>
@@ -100,7 +110,7 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="query2">E&#45;Mail Preference&#58; </label>
+                <label>E&#45;Mail Preference&#58; </label>
                 <div class="radio">
                   <label>
                     <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
@@ -116,7 +126,7 @@
             </div>
                
             <div class="form-group">
-                <label for="query3">T&#46;O&#46;S&#46;</label>
+                <label>T&#46;O&#46;S&#46;</label>
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="">
@@ -138,19 +148,19 @@
             <p><small>&#42; denotes a required field</small></p>
             <form role="form">
             <div class="form-group has-success">
-                <label for="name">&#42; Name</label>
+                <label for="namefield">&#42; Name</label>
                 <input type="text" class="form-control" id="namefield" placeholder="Enter full name" required>
             </div>
             <div class="form-group">
-                <label for="email">&#42; E&#45;Mail Address</label>
+                <label for="emailfield1">&#42; E&#45;Mail Address</label>
                 <input type="email" class="form-control" id="emailfield1" placeholder="Enter e&#45;mail address" required>
             </div>
             <div class="form-group">
-                <label for="website">Website</label>
+                <label for="urlfield">Website</label>
                 <input type="url" class="form-control" id="urlfield" placeholder="Enter website URL">
             </div>
             <div class="form-group">
-                <label for="comment">Comments &amp; Questions</label>
+                <label for="commentfield">Comments &amp; Questions</label>
                 <textarea class="form-control" rows="4" id="commentfield" placeholder="Type your comments or questions here."></textarea>
             </div>
                 <div class="form-group">
@@ -217,7 +227,7 @@
             Sources&#58; 
             &#91; <a href="http://en.wikipedia.org/wiki/The_Cool_Kids">Wikipedia</a> &#93;
             &#91; <a href="http://www.livemixtapes.com/artists/The_Cool_Kids">Live Mixtapes</a> &#93;
-            &#91; <a href="http://www.hotnewhiphop.com/TheCoolKids/profile/">HNHH</a> &#93
+            &#91; <a href="http://www.hotnewhiphop.com/TheCoolKids/profile/">HNHH</a> &#93;
         </p>
     
     </footer>
